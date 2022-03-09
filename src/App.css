@@ -1,0 +1,165 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+main, header, footer {
+  margin-left: 36%;
+} 
+h2 {
+  color: #5a0878;
+  font-size: 50px;
+  margin-top: 70px;
+  border-bottom: 7px #5a0878 solid;
+  border-radius: 2px;
+  width: 97%;
+}
+
+/*Стили для меню*/
+
+nav {
+  background-color: #5a0878;
+  color: white;
+  width: 20%;
+  position: fixed;
+  height: 100%;
+  border-radius: 15px;
+}
+nav h2 {
+  margin: 0;
+  padding: 15px;
+  color: white;
+  font-size: 34px;
+  border: 0;
+}
+nav ul {
+  list-style-type: none;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav li {
+  margin-bottom: 7px;
+}
+
+/*Стили для заголовка*/
+
+h1 {
+  margin-top: 0;
+  padding-top: 67px;
+  font-size: 60px; 
+}
+
+/*Стили для секции 1*/
+
+.sec_1 img {
+  display: inline-block;
+  width: 45%;
+  border-radius: 15px;
+  opacity: 70%;
+  margin: 6px;
+}
+
+/*Стили для секции 2*/
+
+.p2 {
+  font-weight: 700;
+}
+.people {
+  display: flex;
+  width: 85%;
+}
+.box {
+  width: 30%;
+  margin: 0 auto;
+}
+.box img {
+  width: 100%;
+  border-radius: 15px;
+  opacity: 97%;
+}
+.about {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/*Стили для секции 2*/
+
+.packages { 
+  display: flex;
+  justify-content: center;
+}
+.packages ul {
+  background-color: #f0f0f0;
+  margin: 0 16px;
+  text-align: center;
+  width: 43%;
+  list-style-type: none;
+  padding-left: 0;
+  border-radius: 10px;
+}
+.packages li {
+  border-bottom: 1px solid #c2c2c2;
+  padding: 7px;
+  border-radius: 10px;
+}
+#tariff-name, #tariff-name_2 {
+  font-size: 27px;
+  padding: 25px;
+  color: white;
+}
+.packages button {
+  width: 30%;
+  border-radius: 14px;
+  border-color: white;
+  margin: 8px auto;
+  padding: 8px;
+}
+#tariff-name {
+  background-color: #5a0878;
+}
+#tariff-name_2 {
+  background-color: #f44336;
+}
+.price {
+  font-size: 30px;
+}
+.tb {
+  background-color: white;
+  color: #5a0878;
+  border: 0;
+}
+.tb_2 {
+  background-color: #f44336;
+  color: white;
+  border: 0;
+}
+
+/*Стили для секции 3*/
+
+.text {
+  width: 97%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.button {
+  width: 97%;
+  background-color: #5a0878;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+/*Стили для секции 3*/
+
+footer {
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+footer p {
+  font-size: 15px;
+  text-align: right;
+}
